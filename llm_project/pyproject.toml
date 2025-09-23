@@ -3,11 +3,14 @@ name = "llm-project"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Efren",email = "efren.rosales@rombo.mx"}
+    {name = "Efren",email = "aldair.rgomez@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "chromadb>=0.4.0",
+    "librosa>=0.10.0",
+    "numpy>=1.21.0"
 ]
 
 [tool.poetry]
